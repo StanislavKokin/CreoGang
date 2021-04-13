@@ -1,0 +1,17 @@
+.present__name {
+  text-align: center;
+}
+
+.present__list {
+  display: flex;
+  margin-top: 87px;
+}
+.present__item img {
+  border-radius: 50px;
+  width: 170px;
+  height: 150;
+}
+
+.present__item:not(:first-child) {
+  margin-left: 99px;
+}

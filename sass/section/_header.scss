@@ -1,0 +1,32 @@
+.page__header {
+  display: flex;
+}
+
+.hero_logo {
+  cursor: pointer;
+  margin-top: 63px;
+  margin-left: 114px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav__list {
+  margin-left: 521px;
+  display: flex;
+  margin-top: 108px;
+}
+
+.nav__item:not(:first-child) {
+  margin-left: 70px;
+}
+
+.nav__item a {
+  color: $white-text;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 1.1;
+}
