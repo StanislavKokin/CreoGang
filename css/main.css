@@ -176,7 +176,11 @@ body {
 }
 
 .join__name {
-  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 43px;
 }
 
 .join_btn {
@@ -210,5 +214,132 @@ body {
   cursor: pointer;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.price__name {
+  text-align: center;
+}
+
+.price__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.price__item {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.price__item img {
+  max-width: 100%;
+}
+
+.price__item h2 {
+  margin: 0;
+}
+
+.price__number {
+  margin-bottom: 48px;
+}
+
+.price__item:not(:first-child) {
+  margin-left: 60px;
+}
+
+.price_thumb {
+  text-align: center;
+  -webkit-box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  width: 200px;
+  height: 140px;
+}
+
+.price__sales {
+  text-align: left;
+  padding: 50px 51px;
+  margin-top: 182px;
+}
+
+.sales__item:not(:last-child) {
+  margin-bottom: 19px;
+}
+
+.sales__item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: #eeeeee;
+}
+
+.sales__item span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.footer__name {
+  text-align: center;
+  margin-bottom: 69px;
+}
+
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__item:not(:first-child) {
+  margin-left: 87px;
+}
+
+.icon__menu {
+  padding: 10px;
+  background-color: #e7eef5;
+}
+
+.contact__item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: #eeeeee;
+}
+
+.contact__item a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact__text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.contact__list {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.contact__item:not(:first-child) {
+  margin-bottom: 10px;
+}
+
+.footer__nav {
+  text-align: center;
+  margin-top: 83px;
 }
 /*# sourceMappingURL=main.css.map */
